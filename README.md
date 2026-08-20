@@ -1,16 +1,16 @@
-# Payment Transaction Analysis
+# Payment Failure Analysis
 
 ## Project Overview
 
-This project analyzes payment transaction data to understand transaction performance, payment failures, transaction amounts, and payment method usage.
+This project analyzes payment transaction data to identify payment failures, understand failure patterns, and evaluate the performance of different payment methods.
 
 ## Dataset
 
-The dataset contains 3,000 payment transactions across different payment methods such as UPI, Credit Card, Debit Card, Net Banking, and Wallet.
+The dataset contains 3,000 payment transactions across different payment methods including UPI, Credit Card, Debit Card, Net Banking, and Wallet.
 
 ## Tools Used
 
-- Excel – Data preparation and initial analysis
+- Excel – Data cleaning and initial analysis
 - Python – Data analysis
 - MySQL – Database management and SQL analysis
 - Power BI – Interactive dashboard and visualization
@@ -19,10 +19,10 @@ The dataset contains 3,000 payment transactions across different payment methods
 
 - Total transaction analysis
 - Successful vs failed transactions
-- Overall success and failure rate
+- Success and failure rate
 - Payment method usage
 - Failed transactions by payment method
-- Total transaction amount
+- Transaction amount analysis
 - Average transaction amount
 
 ## Key Results
@@ -35,10 +35,10 @@ The dataset contains 3,000 payment transactions across different payment methods
 - Total Transaction Amount: ₹4.11M
 - Average Transaction Amount: ₹1.37K
 
-## Dashboard
-
-The Power BI dashboard provides an overview of transaction performance, payment success and failure rates, transaction amounts, and payment method usage.
-
 ## Project Objective
 
-The objective of this project is to analyze payment transaction data and identify patterns that can help understand payment performance and failure trends.
+The objective of this project is to identify payment failure patterns and understand which payment methods contribute to a higher number of failed transactions.
+
+## Dashboard
+
+An interactive Power BI dashboard was created to visualize transaction performance, payment failures, payment method usage, and transaction amounts.
